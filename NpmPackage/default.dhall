@@ -1,0 +1,19 @@
+{ author = None Text
+, bugs = None ./Bugs/Type.dhall
+, bundledDependencies = None (List Text)
+, contributors = None (List ./Person/Type.dhall)
+, cpu = None (List Text)
+, dependencies = None (List ./Dependency.dhall)
+, description = None Text
+, devDependencies = None (List ./Dependency.dhall)
+, files = None (List Text)
+, homepage = None Text
+, keywords = None (List Text)
+, license = None Text
+, main = None Text
+, os = None (List Text)
+, peerDependencies = None (List ./Dependency.dhall)
+, private = None Bool
+, repository = None ./Repository/Type.dhall
+, scripts = None (List ./Script.dhall)
+}
