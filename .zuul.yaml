@@ -1,0 +1,9 @@
+- project:
+    check: &jobs
+      jobs:
+        - shake-factory-test
+        - shake-factory-docs
+    gate: *jobs
+    post:
+      jobs:
+        - shake-factory-publish-docs
