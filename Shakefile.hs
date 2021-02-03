@@ -14,4 +14,5 @@ main = shakeMain $ do
   "NpmPackage//package.dhall" %> dhallPackageAction
   "//default.dhall" %> dhallDefaultAction
   dhallDocsRules "dhall-npm-package"
+  dhallReleaseRules "./NpmPackage/package.dhall"
   cleanRules

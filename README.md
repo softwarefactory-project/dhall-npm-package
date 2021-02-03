@@ -45,5 +45,13 @@ in  NpmPackage::(template with name = "my-package" with version = "0.0.1")
 
 ```
 
+## Changes
+
+Frozen packages are available in the tag commit.
+
+### 0.1.0
+
+- Initial release
+
 [dhall-lang]: https://dhall-lang.org
 [npm-package-json]: https://docs.npmjs.com/files/package.json
